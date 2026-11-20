@@ -9,7 +9,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "better-profile-for-vinted@sevject",
+      "id": "better-profile-for-vinted@addon",
       "strict_min_version": "115.0",
       "data_collection_permissions": {
         "required": [
