@@ -1,0 +1,17 @@
+{
+  "name": "better-profile-for-vinted-addon",
+  "version": "1.0.0",
+  "description": "Firefox extension that shows item descriptions next to the stats on your own Vinted profile",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "npm run build && web-ext run --source-dir . --start-url https://www.vinted.de",
+    "package": "npm run build && web-ext build --source-dir . --overwrite-dest --ignore-files src tsconfig.json package*.json node_modules .idea"
+  },
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^143.0.1",
+    "typescript": "^6.0.3",
+    "web-ext": "^8.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,9 @@
+/node_modules
+npm-debug.log*
+
+/.idea
+.vscode/*
+/dist
+/web-ext-artifacts
+
+package-lock.json
